@@ -7,15 +7,16 @@ import { Search } from "./components/Search";
 import Pages from "./pages/Pages";
 import "./App.css";
 
+
 const App = () => {
   return (
-    <div className="App">
-      <Header />
-      <Search />
-      <Pages />
-      <Recipes />
-      <Footer />
-    </div>
+      <div className="App">
+        <Header />
+        <Search />
+        <Pages />
+        <Recipes />
+        <Footer />
+      </div>
   );
 };
 
