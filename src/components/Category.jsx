@@ -31,7 +31,7 @@ export const Category = () => {
         <GiShrimp />
         <h4>Seafood</h4>
       </NavLink>
-      <NavLink className="icon" to={"/cuisine/Vegitarian"}>
+      <NavLink className="icon" to={"/cuisine/Vegetarian"}>
         <GiCheeseWedge />
         <h4>Veggi</h4>
       </NavLink>
